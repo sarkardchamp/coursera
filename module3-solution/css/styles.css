@@ -7,3 +7,4 @@ p { text-align: left; }
 footer { background-color: #222; color: white; padding: 15px; }
 footer>p { text-align: center; }
 .content { padding: 0px 50px; }
+.navbar-brand { margin-right: 10px; }
