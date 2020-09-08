@@ -1,35 +1,72 @@
-header {
+.jumbotron {
 	text-transform: uppercase;
-	background-color: grey;
+	background-color: #1c8dd9;
+	margin: -20px -15px;
+	padding-top: 5px;
 }
-header h1 {
+.jumbotron h1 {
 	font-family: 'Shrikhand', cursive;
 	font-size: 4vw;
 	color: red;
 	text-shadow: 1px 1px white;
-	margin-top: -10px;
 }
-header p {
-	color: white;
+.jumbotron p {
+	color: #fff;
 	font-weight: bold;
-	padding-top: 30px;
+	letter-spacing: 2px;
 }
 nav {
-	background-color: lightcyan;
-	border-radius: 0px;
+	background-color: #1c8dd9;
+}
+header .navbar {
+	border-radius: 0;
+	border: 0px;
 }
 nav .navbar-toggle {
 	border: 1px solid grey;
 }
 nav .navbar-toggle:hover, nav .navbar-toggle:active {
-	background-color: white;
+	background-color: #888;
 }
 nav .navbar-toggle .icon-bar {
 	border: 1px solid black;
 }
-.navbar-nav>li > a {
-	color: #222;
+#logo-img {
+	background: url('../images/logo.jpg') no-repeat;
+	height: 68px;
+	width: 150px;
+	margin: -10px 0px 0px 0px;
+	background-position: center;
 }
-.navbar-nav>.active {
-	background-color: white;
+nav .navbar-header .navbar-brand {
+	font-size: 3.5vw;
+	font-family: 'Shrikhand', cursive;
+	color: red;
+	text-shadow: 1px 1px white;
+}
+#myNavbar li {
+	text-transform: uppercase;
+	font-size: 1.2em;
+	letter-spacing: 2px;
+}
+.navbar-nav>li > a {
+	color: #b4d6ed;
+}
+.navbar-nav>.active>a {
+	background-color: #dce9f2;
+	color: #1c8dd9;
+}
+body {
+	background-color: #dce9f2;
+	min-height: 1500px;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#myNavbar li {
+	text-transform: uppercase;
+	font-size: 1em;
+	letter-spacing: 0px;
+}
 }
