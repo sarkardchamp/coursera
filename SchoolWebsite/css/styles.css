@@ -67,6 +67,13 @@ body {
 	color: #fff;
 	font-weight: bold;
 }
+#map {
+	border: 2px solid #1c8dd9;
+	overflow: hidden;
+}
+#map:hover, #map:active {
+	box-shadow: 5px 5px 3px #1c8dd9;
+}
 
 
 
