@@ -58,6 +58,13 @@ body {
 	margin-top: 30px;
 	text-transform: uppercase;
 }
+.carousel-inner p {
+	padding: 0px 70px 0px 70px;
+	text-align: justify;
+}
+.carousel-inner p.last {
+	margin-bottom: 50px;
+}
 #myCarousel {
 	margin-top: 20px;
 	margin-bottom: 20px;`
@@ -151,6 +158,28 @@ footer .row hr {
 	#myNavbar li a {
 		font-size: .8em;
 		letter-spacing: .1em;
+	}
+}
+@media (max-width: 767px) {
+	#myCarousel {
+		margin-top: 60px;
+	}
+	.carousel-inner {
+		height: 475px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.carousel-inner {
+		height: 330px;
+	}
+}
+@media (min-width: 992px) {
+	.carousel-inner {
+		height: 300px;
+	}
+	.carousel-inner p {
+		padding: 0px 100px 0px 100px;
+		text-align: justify;
 	}
 }
 
