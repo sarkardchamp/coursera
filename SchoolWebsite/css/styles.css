@@ -3,8 +3,8 @@ body {
 	min-height: 800px;
 }
 #logo-img {
-	background: url('../images/logo.jpg') no-repeat;
-	height: 60px;
+	background: url('../images/logo.jfif') no-repeat;
+	height: 65px;
 	width: 150px;
 	margin: -10px 0px 0px 0px;
 	background-position: center;
