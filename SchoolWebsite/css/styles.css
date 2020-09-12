@@ -206,6 +206,12 @@ footer .row hr {
 		padding: 0px 35px 0px 35px;
 		text-align: justify;
 	}
+	.col-xs-3, .col-xs-9 {
+		width: 100%;
+	}
+	#staff img {
+		width: 40%;
+	}
 }
 @media (max-width: 767px) {
 	#myCarousel {
