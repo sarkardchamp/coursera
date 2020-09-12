@@ -212,6 +212,9 @@ footer .row hr {
 	#staff img {
 		width: 40%;
 	}
+	#staff table {
+		font-size: 1em;
+	}
 }
 @media (max-width: 767px) {
 	#myCarousel {
@@ -219,6 +222,12 @@ footer .row hr {
 	}
 	.carousel-inner {
 		height: 475px;
+	}
+	#staff table th {
+		width: 45%;
+	}
+	#staff table {
+		font-size: .8em;
 	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
