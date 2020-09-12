@@ -95,6 +95,10 @@ body {
 	margin-top: 20px;
 	margin-bottom: 20px;`
 }
+#admission {
+	padding-top: 60px;
+	min-height: 300px;
+}
 
 #staff h2, #staff h3, #staff h4 {
 	text-transform: uppercase;
@@ -191,9 +195,9 @@ footer .row hr {
 
 
 
-@media (max-width: 912px) {
+@media (max-width: 850px) {
 	#myNavbar li a {
-		font-size: .8em;
+		font-size: .9em;
 		letter-spacing: .1em;
 	}
 }
