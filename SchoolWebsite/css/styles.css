@@ -8,9 +8,12 @@ body {
 	width: 150px;
 	margin: -10px 0px 0px 0px;
 	background-position: center;
+	border-radius: 25px;
+	box-shadow: 0px 0px 20px #222;
 }
 #myNav {
 	border: 0px;
+	box-shadow: 0px 0px 50px #333; 
 }
 #myNav .container-fluid {
 	background-color: #1c8dd9;
@@ -53,6 +56,7 @@ body {
 
 .jumbotron {
 	background-color: #1c8dd9;
+	box-shadow: 0px 0px 20px #222;
 }
 .jumbotron h1 {
 	font-family: 'Shrikhand', cursive;
@@ -60,13 +64,14 @@ body {
 	text-transform: uppercase;
 	color: red;
 	margin-top: 70px;
-	text-shadow: 1px 1px 1px white;
+	text-shadow: 1px 2px 5px white;
 	margin-bottom: 0;
 }
 .jumbotron p {
 	margin-bottom: 60px;
 	text-transform: uppercase;
-	font-size: 1.2em;
+	text-shadow: 1px 1px 5px white;
+	font-size: 1.6em;
 	letter-spacing: 2px;
 	font: sans-serif;
 	color: #fff;
@@ -93,32 +98,99 @@ body {
 }
 #myCarousel {
 	margin-top: 20px;
-	margin-bottom: 20px;`
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 30px #444;
 }
+
+
+.panel {
+	color: #FFF;
+	background-color: #1c8dd9;
+	border-radius: 10px;
+	border: 3px solid #dce9f2;
+	box-shadow: 2px 2px 30px #1c8dd9;
+}
+.panel p {
+	color: #dce9f2;
+}
+.panel a {
+	color: #fff;
+	padding: 5px;
+	border-radius: 5px;
+}
+.panel a:hover, .panel a:active {
+	color: #1c8dd9;
+	text-decoration: none;
+	background-color: white;
+}
+
+
 #admission {
 	padding-top: 60px;
 	min-height: 300px;
 }
-
+#admission h2 {
+	margin-bottom: 0px;
+	letter-spacing: 2px;
+}
+#admission h2,#admission h3, #admission h4 {
+	text-transform: uppercase;
+}
+#admission h3 span {
+	padding: 5px 10px;
+	border-radius: 5px;
+	color: #666;
+	letter-spacing: 2px;
+	font-weight: bold;
+	box-shadow: 3px 0px 20px #444;
+}
+#admission h4 span {
+	padding: 3px 5px;
+	opacity: .8;
+	border-radius: 5px;
+	box-shadow: 2px 2px 10px #444;
+}
+#staff {
+	padding-top: 60px;
+}
 #staff h2, #staff h3, #staff h4 {
 	text-transform: uppercase;
 }
 #staff h2 {
-	margin-top: 60px;
+	letter-spacing: 2px;
+	padding-bottom: 5px;
 }
 #staff h4 {
 	margin-left: 3%;
 	margin-bottom: 10px;
+	margin-top: 20px;
 	font-weight: bold;
 	font-style: italic;
 }
 #staff h3 {
 	margin-left: 8%;
+	color: #666;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+#staff h3 span {
+	padding: 5px 10px;
+	border-radius: 5px;
+	box-shadow: 3px 0px 20px #444;
+}
+#staff h4 span {
+	padding: 3px 5px;
+	opacity: .8;
+	border-radius: 5px;
+	box-shadow: 2px 2px 10px #444;
 }
 #staff img {
 	margin-top: 5px;
 	border: 2px solid #1c8dd9;
 	box-shadow: 0px 0px 10px #1c8dd9;
+}
+#staff table {
+	margin-bottom: 40px;
 }
 #staff table th {
 	text-align: right;
@@ -128,10 +200,11 @@ body {
 
 #map {
 	overflow: hidden;
+	margin-bottom: -40px;
 }
 #map:hover, #map:active {
 	border: none;
-	box-shadow: 1px 1px 30px #dce9f2;
+	box-shadow: 0px 0px 30px #dce9f2;
 }
 
 
@@ -166,7 +239,7 @@ section ul li {
 
 
 #contact {
-	padding: 50px 0px 50px 0px;
+	padding: 50px 0px 0px 0px;
 
 }
 #contact span {
@@ -177,6 +250,7 @@ footer {
 	color: #c1d9d5;
 	margin-top: 30px;
 	padding: 30px;
+	box-shadow: 0px 0px 20px #333;
 }
 footer h4 {
 	text-transform: uppercase;
@@ -214,6 +288,8 @@ footer .row hr {
 	}
 	#staff table {
 		font-size: 1em;
+		margin-top: 10px;
+		margin-bottom: 15px;
 	}
 }
 @media (max-width: 767px) {
