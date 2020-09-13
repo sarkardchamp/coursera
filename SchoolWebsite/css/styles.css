@@ -139,8 +139,12 @@ body {
 #admission h2 {
 	margin-bottom: 0px;
 	letter-spacing: 2px;
+	text-transform: uppercase;
 }
-#admission h2,#admission h3, #admission h4 {
+#admission p.intro {
+	margin-top: 0px;
+} 
+#admission h3, #admission h4 {
 	text-transform: uppercase;
 	margin: 25px 0px 20px;
 }
@@ -157,6 +161,10 @@ body {
 	opacity: .8;
 	border-radius: 5px;
 	box-shadow: 2px 2px 10px #444;
+}
+#fee-structure th {
+	width: 26.34%;
+	text-align: right;
 }
 #staff {
 	padding-top: 60px;
@@ -210,7 +218,7 @@ body {
 
 #map {
 	overflow: hidden;
-	margin-bottom: -30px;
+	margin: 0px -30px -30px -30px;
 }
 #map:hover, #map:active {
 	border: none;
@@ -337,6 +345,10 @@ footer #abhineet a:hover, footer #abhineet a:active {
 	}
 }
 @media (min-width: 992px) {
+	#myNavbar li a {
+		font-size: 1.2em;
+		letter-spacing: 3px;
+	}
 	.carousel-inner {
 		height: 300px;
 	}
