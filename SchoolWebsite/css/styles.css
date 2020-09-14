@@ -137,7 +137,9 @@ body {
 	text-decoration: none;
 	background-color: white;
 }
-
+.panel.panel-primary {
+	padding: 10px;
+}
 
 #admission {
 	padding-top: 60px;
