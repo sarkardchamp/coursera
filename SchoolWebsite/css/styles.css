@@ -78,23 +78,24 @@ body {
 	font-weight: bold;
 }
 
-.carousel-inner {
-	min-height: 200px;
+.carousel-control, .carousel-control:hover {
+	color: #1c8dd9;
+}
+.carousel-indicators li {
+	border-color: #1c8dd9;
+}
+.carousel-indicators li.active {
 	background-color: #1c8dd9;
-	color: #FFF;
+	border-color: #1c8dd9;
 }
-.carousel-inner h3 {
-	font-family: 'Dancing Script', cursive;
-	margin-top: 30px;
-	text-transform: uppercase;
+.carousel-caption {
+	color: #1c8dd9;
+	font-weight: bold;
+	text-shadow: 1px 1px 5px #fff;
 }
-.carousel-inner p {
-	padding: 0px 70px 0px 70px;
-	text-align: justify;
-	font-family: 'Kalam', cursive;
-}
+
 #myCarousel {
-	margin-top: 20px;
+	margin-top: 40px;
 	margin-bottom: 20px;
 	box-shadow: 0px 0px 30px #444;
 }
@@ -107,7 +108,8 @@ body {
 #about-text img {
 	margin: 30px auto;
 }
-#about-text .text {
+#about-text .row .text {
+	margin-top: 20px;
 	border-radius: 10px;
 	border: 2px solid #1c8dd9;
 }
@@ -325,10 +327,6 @@ footer #abhineet a:hover, footer #abhineet a:active {
 	}
 }
 @media (max-width: 440px) {
-	.carousel-inner p {
-		padding: 0px 35px 0px 35px;
-		text-align: justify;
-	}
 	#about-text span {
 		font-size: 4vw;
 	}
@@ -348,19 +346,11 @@ footer #abhineet a:hover, footer #abhineet a:active {
 	#myCarousel {
 		margin-top: 60px;
 	}
-	.carousel-inner {
-		height: 475px;
-	}
 	#staff table th {
 		width: 45%;
 	}
 	#staff table {
 		font-size: .8em;
-	}
-}
-@media (min-width: 768px) and (max-width: 991px) {
-	.carousel-inner {
-		height: 330px;
 	}
 }
 @media (min-width: 992px) {
@@ -369,11 +359,7 @@ footer #abhineet a:hover, footer #abhineet a:active {
 		letter-spacing: 3px;
 	}
 	.carousel-inner {
-		height: 300px;
-	}
-	.carousel-inner p {
-		padding: 0px 100px 0px 100px;
-		text-align: justify;
+		height: 440px;
 	}
 }
 
