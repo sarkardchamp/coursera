@@ -239,7 +239,7 @@ body {
 
 #map {
 	overflow: hidden;
-	margin: 0px -30px -30px -30px;
+	margin: 0px -30px 0px -30px;
 }
 #map:hover, #map:active {
 	border: none;
@@ -281,10 +281,7 @@ section ul li {
 	padding: 50px 0px 0px 0px;
 
 }
-#contact span {
-	font-style: italic;
-}
-footer {
+#contact {
 	background-color: #1c8dd9;
 	color: #c1d9d5;
 	margin-top: 30px;
@@ -304,10 +301,6 @@ footer .info a:hover, footer .info a:active {
 footer .row hr {
 	border: 1px solid #222;
 }
-footer #abhineet {
-	margin-top: 40px;
-	margin-bottom: -30px;
-}
 footer #abhineet a {
 	background-color: #c1d9d5;
 	padding: 3px;
@@ -316,6 +309,11 @@ footer #abhineet a {
 footer #abhineet a:hover, footer #abhineet a:active {
 	text-decoration: none;
 }
+#contact div a span {
+	color: #c1d9d5;
+	font-size: 2em;
+}
+
 
 
 
