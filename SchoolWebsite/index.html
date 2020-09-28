@@ -39,10 +39,35 @@
 	<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<style type="text/css">
+		body {
+		    position: relative; 
+		  }
+		  .affix {
+		    top:0;
+		    width: 100%;
+		    z-index: 199 !important;
+		  }
+		  .navbar {
+		    margin-bottom: 0px;
+		  }
+
+		  .affix ~ .container-fluid {
+		   position: relative;
+		   top: 50px;
+		  }
+		  .jumbotron {
+		  	margin-bottom: 0;
+		  }
+	</style>
 </head>
-<body id="top" data-spy="scroll" data-target=".navbar" data-offset="60">
+<body id="top" data-spy="scroll" data-target=".navbar" data-offset="60"><div class="jumbotron text-center hidden-xs">
+		<h1>residential sarvodaya public school</h1>
+		<p>come to learn, go to serve</p>
+	</div>
+
 	<header>
-		<nav class="navbar navbar-default navbar-fixed-top" id="myNav">
+		<nav class="navbar navbar-default" data-spy="affix" data-offset-top="300" id="myNav">
 			<div class="container-fluid text-center">
 				<div class="navbar-header">
 					<a href="index.html" class="navbar-brand hidden-xs">
@@ -59,7 +84,7 @@
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav navbar-right">
-						<li class=""><a href="#myCarousel">About</a></li>
+						<li><a href="#myCarousel">About</a></li>
 						<li><a href="#admission">Admission</a></li>
 						<li><a href="#staff">Staff</a></li>
 						<li><a href="#contact">Contact</a></li>
@@ -78,10 +103,7 @@
 			</div>
 		</nav>	
 	</header>
-	<div class="jumbotron text-center hidden-xs">
-		<h1>residential sarvodaya public school</h1>
-		<p>come to learn, go to serve</p>
-	</div>
+	
 
 	<div id="carousel" class="container">
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
